@@ -18,8 +18,8 @@ int main() {
         ans = 1;
        }
        else{
-        ans += (l!L);
-        ans += (r!R);
+           ans += (l != L);
+            ans += (r != R);
 
        }
        cout<<ans<<endl;

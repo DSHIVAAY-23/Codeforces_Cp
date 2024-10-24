@@ -23,7 +23,7 @@ void sieve_of_eratosthenes() {
     // Storing squares of prime numbers
     for (int i = 2; i <= MAX_LIMIT; ++i) {
         if (is_prime[i]) {
-            t_primes.push_back(1LL * i * i); // Store i^2
+            t_primes.push_back(1LL * i * i* i* i); // Store i^2
         }
     }
 }
